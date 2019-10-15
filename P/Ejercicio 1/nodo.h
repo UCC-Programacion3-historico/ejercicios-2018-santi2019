@@ -10,7 +10,6 @@ class Nodo {
 private:
     T dato;
     Nodo<T> *siguiente;
-
 public:
     T getDato()  {
         return dato;
